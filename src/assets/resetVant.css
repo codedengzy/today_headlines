@@ -1,0 +1,162 @@
+/* 头部样式 */
+
+.headerWrap .van-search {
+    padding: 0.3rem 0.18rem;
+}
+
+.headerWrap .van-cell {
+    font-size: 0.42rem;
+    line-height: 0.86rem;
+}
+
+.headerWrap .van-field__left-icon .van-icon {
+    font-size: .49rem;
+}
+
+.headerWrap .van-button {
+    height: .58rem;
+    width: .58rem;
+    background-color: white;
+    color: #fa5858;
+    border: 0;
+    top: -0.3rem;
+    left: 0.26rem;
+}
+
+.headerWrap .van-button--normal {
+    font-size: .6rem;
+}
+
+.headerWrap .van-button__text i {
+    font-style: normal;
+    font-size: .26rem;
+    position: absolute;
+    top: .65rem;
+    left: 0;
+    color: white;
+}
+
+
+/* nav样式 */
+
+.navWrap .van-tab {
+    font-size: .42rem;
+}
+
+.navWrap .van-tabs--line .van-tabs__wrap {
+    height: 61px;
+}
+
+
+/* 底部导航 */
+
+.footerBar .van-tabbar {
+    height: 1.3rem;
+}
+
+.footerBar .van-tabbar-item {
+    font-size: .4rem;
+}
+
+.footerBar .van-tabbar-item__icon img {
+    height: .53rem;
+}
+
+.footerBar .van-tabbar--fixed {
+    bottom: -1px;
+}
+
+
+/* 放映厅筛选 */
+
+.cinemaWrap .van-popup__close-icon {
+    font-size: .58rem;
+}
+
+.cinemaFilter .van-nav-bar__arrow {
+    font-size: .6rem;
+}
+
+.cinemaFilter .van-nav-bar__title {
+    font-size: .5rem;
+}
+
+.cinemaFilter .van-nav-bar__content {
+    height: 1rem;
+}
+
+.cinemaFilter .van-nav-bar {
+    line-height: .53rem;
+}
+
+
+/* cinema筛选 */
+
+.cinemaFilter .van-tabs {
+    margin: .44rem 0;
+}
+
+.cinemaFilter .van-tabs--card>.van-tabs__wrap {
+    height: .58rem;
+}
+
+.cinemaFilter .van-tabs__nav--card {
+    border: 0;
+    height: .6rem;
+}
+
+.cinemaFilter .van-tabs__nav--card .van-tab {
+    border: 0;
+    color: black;
+}
+
+.cinemaFilter .van-tabs__nav--card .van-tab.van-tab--active {
+    color: red;
+    background: #fff;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+.cinemaFilter .van-tab {
+    font-size: .38rem;
+}
+
+.cinemaFilter .van-tabs__wrap--scrollable .van-tab {
+    padding: 0 0.4rem;
+}
+
+
+/* 登录界面 */
+
+.loginWrap .van-cell {
+    font-size: .5rem;
+    line-height: .5rem;
+}
+
+.loginWrap .van-button {
+    height: .8rem;
+}
+
+.loginWrap .van-button--normal {
+    font-size: .4rem;
+}
+
+
+/* dialog弹窗 */
+
+.van-dialog {
+    width: 50%;
+}
+
+.van-dialog__content--isolated {
+    min-height: 2.2rem;
+}
+
+.van-dialog__message {
+    font-size: .4rem;
+    line-height: .4rem;
+}
+
+.van-button__text {
+    font-size: .4rem;
+}
